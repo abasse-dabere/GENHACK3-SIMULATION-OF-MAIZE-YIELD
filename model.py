@@ -10,6 +10,8 @@
 # See below an example of a generative model
 # Z |-> G_\theta(Z)
 ############################################################################
+from tensorflow.keras.models import load_model
+import joblib
 
 # <!> DO NOT ADD ANY OTHER ARGUMENTS <!>
 def generative_model(noise):
@@ -23,13 +25,17 @@ def generative_model(noise):
     """
     # See below an example
     # ---------------------
-    latent_variable = noise[:, ...]  # choose the appropriate latent dimension of your model
+    latent_dim = 50
+    latent_variable = noise[:, :latent_dim]  # choose the appropriate latent dimension of your model
 
     # load your parameters or your model
     # <!> be sure that they are stored in the parameters/ directory <!>
-    model = ...
+    model = load_model('parameters/g1_with_d3.h5')
+    scaler = joblib.load('parameters/output_scaler.pkl')
+    outputs = model(latent_variable)
+    outputs = scaler.inverse_transform(outputs)
 
-    return model(latent_variable) # G(Z)
+    return outputs # G(Z)
 
 
 
