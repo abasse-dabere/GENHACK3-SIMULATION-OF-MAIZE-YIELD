@@ -1,3 +1,3 @@
-2024-01-29 19:33:01,415:DEBUG: Creating converter from 3 to 5
-2024-01-29 19:33:01,459:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-01-29 19:33:01,643:DEBUG: Successful simulation
+2024-02-01 17:10:04,761:DEBUG: Creating converter from 3 to 5
+2024-02-01 17:10:04,798:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-01 17:10:04,969:DEBUG: Successful simulation
