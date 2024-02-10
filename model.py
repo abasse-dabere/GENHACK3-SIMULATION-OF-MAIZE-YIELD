@@ -65,6 +65,8 @@ def generative_model(noise, scenario):
     outputs = np.zeros((noise.shape[0], 4))
     for scen in range(1, 10):
         mask = scenario[:, scen-1] == 1
+        if mask.sum() == 0:
+            continue
         if scen == 1:
             outputs[mask] = scaler_1.inverse_transform(model_1.predict(latent_variable[mask]))
         elif scen == 2:
