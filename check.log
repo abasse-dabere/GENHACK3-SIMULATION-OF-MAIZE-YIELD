@@ -1,10 +1,26 @@
-2024-02-10 18:52:22,178:DEBUG: Creating converter from 3 to 5
-2024-02-10 18:52:22,296:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:22,878:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:22,904:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:22,923:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:22,959:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:22,979:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:23,008:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:23,026:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-10 18:52:23,518:DEBUG: Successful simulation
+2024-02-19 19:07:50,666:DEBUG: Creating converter from 3 to 5
+2024-02-19 19:07:50,716:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,901:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,922:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,938:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,953:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,969:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:50,989:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:51,005:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-19 19:07:51,046:DEBUG: in user code:
+
+    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2440, in predict_function  *
+        return step_function(self, iterator)
+    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2425, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2413, in run_step  **
+        outputs = model.predict_step(data)
+    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2381, in predict_step
+        return self(x, training=False)
+    File "/usr/local/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "generator_2" is incompatible with the layer: expected shape=(None, 50), found shape=(32, 4)
+
