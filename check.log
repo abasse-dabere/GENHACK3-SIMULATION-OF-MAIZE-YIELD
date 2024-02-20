@@ -1,26 +1,82 @@
-2024-02-19 19:16:45,232:DEBUG: Creating converter from 3 to 5
-2024-02-19 19:16:45,277:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,444:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,468:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,492:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,511:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,526:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,548:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,565:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
-2024-02-19 19:16:45,606:DEBUG: in user code:
-
-    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2440, in predict_function  *
-        return step_function(self, iterator)
-    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2425, in step_function  **
-        outputs = model.distribute_strategy.run(run_step, args=(data,))
-    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2413, in run_step  **
-        outputs = model.predict_step(data)
-    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/training.py", line 2381, in predict_step
-        return self(x, training=False)
-    File "/usr/local/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
-        raise e.with_traceback(filtered_tb) from None
-    File "/usr/local/lib/python3.11/site-packages/keras/src/engine/input_spec.py", line 298, in assert_input_compatibility
-        raise ValueError(
-
-    ValueError: Input 0 of layer "generator_2" is incompatible with the layer: expected shape=(None, 50), found shape=(32, 4)
-
+2024-02-20 15:06:50,984:DEBUG: Creating converter from 3 to 5
+2024-02-20 15:06:51,031:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,202:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,225:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,241:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,258:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,274:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,296:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,314:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,602:DEBUG: Successful simulation
+2024-02-20 15:06:51,686:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,721:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,743:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,755:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,769:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,782:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,803:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:51,816:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,014:DEBUG: Successful simulation
+2024-02-20 15:06:52,086:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,122:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,144:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,158:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,171:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,185:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,207:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,221:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,430:DEBUG: Successful simulation
+2024-02-20 15:06:52,503:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,540:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,562:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,575:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,590:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,604:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,627:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,642:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,842:DEBUG: Successful simulation
+2024-02-20 15:06:52,913:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,949:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,971:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,984:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:52,998:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,011:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,031:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,043:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,271:DEBUG: Successful simulation
+2024-02-20 15:06:53,370:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,405:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,426:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,438:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,452:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,465:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,485:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,499:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,696:DEBUG: Successful simulation
+2024-02-20 15:06:53,772:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,808:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,829:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,842:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,854:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,867:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,889:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:53,903:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,095:DEBUG: Successful simulation
+2024-02-20 15:06:54,165:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,198:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,220:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,234:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,247:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,260:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,280:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,293:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,499:DEBUG: Successful simulation
+2024-02-20 15:06:54,571:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,606:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,627:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,641:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,655:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,668:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,688:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,701:WARNING: No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2024-02-20 15:06:54,893:DEBUG: Successful simulation
